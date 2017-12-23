@@ -1,0 +1,17 @@
+{
+  "name": "s3-file-uploading",
+  "version": "1.0.0",
+  "description": "basic file uploading to amazon AWS S3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nk",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.175.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2"
+  }
+}
