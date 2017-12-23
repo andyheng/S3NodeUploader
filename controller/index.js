@@ -35,7 +35,7 @@ router.get("/sign", (req, res) => {
     }
     res.json({
       signed_request: data,
-      url: `https://s3.ca-central-1.amazonaws.com/${S3_BUCKET}/${req.query.file_name}`
+      url: `https://s3.ca-central-1.amazonaws.com/${bucketName}/${fileName}`
     });
   });
 });
