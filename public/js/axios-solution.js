@@ -1,3 +1,9 @@
+//Axios solution
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("img").value = "";
+})
+
 // Creates the signed URL by hitting the "/sign" route
 function signRequest(file, cb) {
   const url = `/sign?file_name=${file.name}&file_type=${file.type}`;

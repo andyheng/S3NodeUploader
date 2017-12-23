@@ -1,5 +1,9 @@
 //Fetch solution
 
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("img").value = "";
+})
+
 //Get the signed request
 function signRequest(file, cb) {
   const url = `/sign?file_name=${file.name}&file_type=${file.type}`;
